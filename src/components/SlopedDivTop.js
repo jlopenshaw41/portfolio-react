@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SlopedDiv = styled.div`
     background-color: #f4e3d5;
-    height: 60vh;
+    height: 50vh;
     clip-path: polygon(
     0 0, /* left top */
     100% 0, /* right top */ 

@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
 body {
     background-color: white;
     color: #404040;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
 }
