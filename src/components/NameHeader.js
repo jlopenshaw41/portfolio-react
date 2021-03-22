@@ -16,7 +16,7 @@ const StyledH3 = styled.h2`
   animation: typing 2s steps(21), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 1px solid #404040 ;
+  border-right: 1px solid gray ;
 
 @keyframes typing {
   from {

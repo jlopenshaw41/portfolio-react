@@ -1,21 +1,36 @@
 import styled from "styled-components";
+import {
+  TwitterWithCircle,
+  LinkedinWithCircle,
+  GithubWithCircle,
+  MediumWithCircle,
+} from "@styled-icons/entypo-social";
 
-const Twitter = styled.div``;
+const SocialIconContainer = styled.div`
+  display: flex;
+  width: 30%;
+`;
 
-const LinkedIn = styled.div``;
-
-const Github = styled.div``;
-
-const Hashnode = styled.div``;
+const SocialIcon = styled.div`
+  width: 25%;
+`;
 
 const Socials = () => {
   return (
-    <div>
-      <Twitter>Twitter</Twitter>
-      <LinkedIn>LinkedIn</LinkedIn>
-      <Github>Github</Github>
-      <Hashnode>Blog</Hashnode>
-    </div>
+    <SocialIconContainer>
+      <SocialIcon>
+        <TwitterWithCircle />
+      </SocialIcon>
+      <SocialIcon>
+        <LinkedinWithCircle />
+      </SocialIcon>
+      <SocialIcon>
+        <GithubWithCircle />
+      </SocialIcon>
+      <SocialIcon>
+        <MediumWithCircle />
+      </SocialIcon>
+    </SocialIconContainer>
   );
 };
 
