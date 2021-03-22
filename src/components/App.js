@@ -1,4 +1,5 @@
 import GlobalStyle from "../theme/globalStyle";
+import SlopedDivTop from "./SlopedDivTop";
 import PlaceHolderText from "./PlaceholderText";
 import NameHeader from "./NameHeader";
 import Socials from "./Socials";
@@ -8,6 +9,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <div className="App">
+        <SlopedDivTop />
         <PlaceHolderText />
         <NameHeader />
         <Socials />
