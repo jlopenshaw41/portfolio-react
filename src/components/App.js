@@ -22,7 +22,7 @@ const TextContainer = styled.div`
   width: 55%;
 
   @media only screen and (max-width: 750px) {
-    top: 60%;
+    top: 30%;
     width: 75%;
   }
 `;
