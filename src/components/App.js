@@ -1,11 +1,9 @@
-import '../styles/App.css';
+import PlaceHolderText from "./PlaceholderText";
 
 const App = () => {
   return (
     <div className="App">
-        <p>
-          Jennifer Openshaw
-        </p>
+       <PlaceHolderText />
     </div>
   );
 }
