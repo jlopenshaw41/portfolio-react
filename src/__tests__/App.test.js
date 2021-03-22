@@ -3,6 +3,6 @@ import App from '../components/App';
 
 test('renders "Jennifer Openshaw"', () => {
   render(<App />);
-  const name = screen.getByText("Coming Soon");
-  expect(name).toBeInTheDocument();
+  const text = screen.getByText("Coming Soon");
+  expect(text).toBeInTheDocument();
 });
